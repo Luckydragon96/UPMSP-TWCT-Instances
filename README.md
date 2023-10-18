@@ -2,10 +2,10 @@
 
 The benchmark is derived from the one originally proposed by Chen and Powell (1999) for the weighted completion time variant of unrelated parallel machine scheduling problems. 
 
-## Integer processing time instances
-Their dataset comprises instances with   and  . In these instances, processing times (pjk) are integers drawn from a uniform distribution U [1, 100], while weights (wj) are generated using a uniform distribution U [1, 30]. 
-To expand the benchmark, we have introduced larger-scale instances with m = 20 and  . 
-The instances mentioned thus far are referred to as integer processing time instances. 
+## Integer Processing Time Instances
+The dataset comprises instances with $m = \{2,4,8,12,16,20\}$ and $n = \{20,30,40,60,80,100\}$. In these instances, processing times ($p_{jk}$) are integers drawn from a uniform distribution $U [1, 100]$, while weights ($w_j$) are generated using a uniform distribution $U [1, 30]$. 
+To expand the benchmark, we have introduced larger-scale instances with $m = 20$ and $n = \{120,140,160,200\}$. We conduct extensive numerical experiments to obtain three types of instances, that is, **Instance 1** that can be solved without branching，**Instance 2** that can be solved with few branches, and **Instance 3** that can be solved with more branches.
 
+## Fractional Processing Time Instances
 
-Furthermore, we have also generated instances with fractional processing times, where pjk values are fractional and drawn from a uniform distribution U [1, 100]. 
+We have also generated instances with fractional processing times, where $p_{jk}$ values are fractional and drawn from a uniform distribution $U [1, 100]$. Other settings are the same as for **Integer Processing Time Instances**。
