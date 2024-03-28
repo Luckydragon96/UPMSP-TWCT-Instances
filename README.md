@@ -1,6 +1,6 @@
 # UPMSP-TWCT Instances
 
-This repository contains instances for the Unrelated Parallel Machine Scheduling Problem with Time Windows and Sequence Dependent Setup Times (UPMSP-TWCT). 
+This repository contains instances and results for the Unrelated Parallel Machine Scheduling Problem with minimizing the total weighted completion time (UPMSP-WCT). 
 
 ## Introduction
 
