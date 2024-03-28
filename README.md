@@ -12,7 +12,11 @@ The UPMSP is given a set $N$ of $n$ independent jobs that must be scheduled on a
 
 This repository contains the following:
 
-- `instances/`: Directory containing instance files in a specific format.
+- `UPMSP-WCT Instances/`: Directory containing instance files in a specific format.
+- `UPMSP-WCT Results/`: Directory containing results solved by our Branch-Price-and-Cut (BPC) method in a specific format.
+- `BP Results/`: Directory containing results solved by our Branch-and-Price (BP) method in a specific format.
+- `BSSU Results/`: Directory containing results solved by other BPC method in a specific format.
+- `Effectiveness of the Main Components/`: Directory containing results on effectiveness of the main components of our BPC method in a specific format.
 - `README.md`: This README file providing an overview of the repository.
 
 ## Instance Format
