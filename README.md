@@ -19,6 +19,8 @@ This repository contains the following:
 - `Effectiveness of the Main Components/`: Directory containing results on effectiveness of the main components of our BPC method in a specific format.
 - `README.md`: This README file providing an overview of the repository.
 
+For more details on BPC, BP, and BSSU algorithms stay tuned to the papers we are submitting.
+
 ## Usage
 
 The proposed BPC algorithm is implemented in C\# with ILOG CPLEX 12.8 serving as the LP solver. All tests are conducted on a computer with a 2.50 GHz IntelCoreTM i9-12900H processor running Microsoft Windows 11 and equipped with 16.0 GB of RAM. A time limit of one hour was imposed for each execution of the BPC algorithm.
