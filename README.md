@@ -1,10 +1,12 @@
-# UPMSP-TWCT Instances
+# UPMSP-TWCT
 
 This repository contains instances and results for the Unrelated Parallel Machine Scheduling Problem with minimizing the total weighted completion time (UPMSP-WCT). 
 
 ## Introduction
 
-The Unrelated Parallel Machine Scheduling Problem with Time Windows and Sequence Dependent Setup Times (UPMSP-TWCT) is a classic problem in combinatorial optimization. In this problem, a set of jobs must be processed on a set of parallel machines, each with its own availability schedule. Each job has a processing time and a release date, and there are time windows during which the jobs must be completed. Additionally, there are setup times between certain pairs of jobs, which depend on the sequence in which they are processed.
+The Unrelated Parallel Machine Scheduling Problem (\prob) is a fundamental challenge in combinatorial optimization and has been extensively researched for decades. It has widespread applications in production scheduling, computing service scheduling, TV advertisement scheduling, and resource allocation in workforce planning, to name a few. We are given a set $N$ of $n$ independent jobs that must be scheduled on a set $M$ of $m$ unrelated parallel machines. Each job $j \in N$, is defined by $m$ processing times $p_{jk}$, $\forall k \in M$,  and a weight $w_j$. Importantly, the processing times $p_{jk}$ are \textit{unrelated}, i.e., they are arbitrary and do not possess any characteristic related to the machines. Each machine can handle only one job at a time, and a single machine must process each job without interruptions or preemption. 
+
+Let $C_j$ be the completion time of job $j \in N$ in a solution to the problem. The objective is to find a schedule minimizing the total weighted completion time computed as $\sum_{j \in N}w_jC_j$.
 
 ## Contents
 
