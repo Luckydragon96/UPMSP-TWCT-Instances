@@ -1,4 +1,4 @@
-# UPMSP-TWCT
+# UPMSP-TWCT Benchmark
 
 This repository contains instances and results for the Unrelated Parallel Machine Scheduling Problem with minimizing the total weighted completion time (UPMSP-WCT). 
 
