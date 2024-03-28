@@ -40,7 +40,9 @@ SetupTimes
 
 ## Usage
 
-These instance files can be used for benchmarking algorithms and solving instances of the UPMSP-TWCT problem.
+The proposed BPC algorithm is implemented in C\# with ILOG CPLEX 12.8 serving as the LP solver. All tests are conducted on a computer with a 2.50 GHz IntelCoreTM i9-12900H processor running Microsoft Windows 11 and equipped with 16.0 GB of RAM. A time limit of one hour was imposed for each execution of the BPC algorithm.
+
+These instance files can be used for benchmarking algorithms and solving instances of the UPMSP-TWCT problem. 
 
 ## Citation
 
