@@ -4,9 +4,9 @@ This repository contains instances and results for the Unrelated Parallel Machin
 
 ## Introduction
 
-The Unrelated Parallel Machine Scheduling Problem (\prob) is a fundamental challenge in combinatorial optimization and has been extensively researched for decades. It has widespread applications in production scheduling, computing service scheduling, TV advertisement scheduling, and resource allocation in workforce planning, to name a few. We are given a set $N$ of $n$ independent jobs that must be scheduled on a set $M$ of $m$ unrelated parallel machines. Each job $j \in N$, is defined by $m$ processing times $p_{jk}$, $\forall k \in M$,  and a weight $w_j$. Importantly, the processing times $p_{jk}$ are \textit{unrelated}, i.e., they are arbitrary and do not possess any characteristic related to the machines. Each machine can handle only one job at a time, and a single machine must process each job without interruptions or preemption. 
+The Unrelated Parallel Machine Scheduling Problem is a fundamental challenge in combinatorial optimization and has been extensively researched for decades. It has widespread applications in production scheduling, computing service scheduling, TV advertisement scheduling, and resource allocation in workforce planning, to name a few. 
 
-Let $C_j$ be the completion time of job $j \in N$ in a solution to the problem. The objective is to find a schedule minimizing the total weighted completion time computed as $\sum_{j \in N}w_jC_j$.
+The UPMSP is given a set $N$ of $n$ independent jobs that must be scheduled on a set $M$ of $m$ unrelated parallel machines. Each job $j \in N$, is defined by $m$ processing times $p_{jk}$, $\forall k \in M$,  and a weight $w_j$. Importantly, the processing times $p_{jk}$ are \textit{unrelated}, i.e., they are arbitrary and do not possess any characteristic related to the machines. Each machine can handle only one job at a time, and a single machine must process each job without interruptions or preemption. Let $C_j$ be the completion time of job $j \in N$ in a solution to the problem. The objective is to find a schedule minimizing the total weighted completion time computed as $\sum_{j \in N}w_jC_j$.
 
 ## Contents
 
