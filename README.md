@@ -33,6 +33,8 @@ If you use these instances in your research, please cite the following paper:
 
 [Insert citation information here]
 
+Our paper with the title "An Exact Branch-Price-and-Cut Algorithm for the Unrelated Parallel Machine Scheduling Problem" and authors "Yang Yu, Xiaolong Li, Roberto Baldacci, Wei Sun, Jiafu Tang, Zhiqiao Wu, and Han Zhu" is being submitted to ***INFORMS Journal on Computing***.
+
 ## License
 
 This repository is licensed under the [insert license type here]. See the [LICENSE](LICENSE) file for details.
